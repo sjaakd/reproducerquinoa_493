@@ -1,0 +1,42 @@
+# Eclipse
+.metadata
+.classpath
+.project
+.settings
+.factorypath
+.checkstyle
+.externalToolBuilders
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea
+.mvn
+mvnw
+mvnw.cmd
+
+# Netbeans
+nb-configuration.xml
+/**/nbproject/
+
+# Build
+/**/target/
+/**/bin/
+/**/node_modules/
+/**/npm/
+/**/coverage/
+/**/bower_components/
+/**/dist/
+/**/typings/
+/**/.quinoa/
+/**/.angular/
+/**/npm-debug.log
+
+# Test generated files
+/**/output
+
+# Misc.
+.DS_Store
+output/**
+uitgifteloket-dev.env
