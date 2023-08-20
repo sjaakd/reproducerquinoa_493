@@ -1,9 +1,11 @@
 import {APP_INITIALIZER, NgModule} from '@angular/core';
 import {ConfigurationService} from './app.configurationservice';
+import {BrowserModule} from '@angular/platform-browser';
+import {HttpClientModule} from '@angular/common/http';
 
 
 @NgModule({
-    imports: [],
+    imports: [ BrowserModule, HttpClientModule ],
     declarations: [],
     bootstrap: [],
     providers: [ConfigurationService,
